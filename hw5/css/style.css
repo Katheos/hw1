@@ -10,9 +10,11 @@
     float: right;
 }
 .container{
+    background: url(../images/for_homework.jpg);
     width: 1000px;
+    
     height: 750px;
-    background: url(/images/for_homework.jpg);
+    
     padding: 1px;
 }
 .container ul{
