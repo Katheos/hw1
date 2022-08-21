@@ -1,0 +1,167 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    width: 450px;
+    height: 355px;
+    background: white;
+    border: 10px solid black;
+    position: absolute;
+    border-radius: 50% 50%;
+    top: 200px;
+    left: 400px;
+}
+.eye-left{
+width: 130px;
+height: 120px;
+background: black;
+border-radius: 72% 32%;
+position: absolute;
+top: 120px;
+left: 40px;
+}
+.eye-right{
+    width: 130px;
+    height: 120px;
+    background: black;
+    border-radius: 32% 72%;
+    position: absolute;
+top: 120px;
+left: 240px;
+}
+.pupil-left{
+    width: 42px;
+    height: 45px;
+    background: #49c9f2;
+    position: absolute;
+    border-radius: 60%;
+    top: 15px;
+    left: 75px;
+}
+.pupil-right{
+    width: 42px;
+    height: 45px;
+    background: #49c9f2;
+    position: absolute;
+    border-radius: 60%;
+    top: 15px;
+    left: 15px;
+}
+.shine-left{
+    width: 25px;
+    height: 25px;
+    background: #bde6f5;
+    border-radius: 50%;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+}
+.shine-right{
+    width: 25px;
+    height: 25px;
+    background: #bde6f5;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+.mouth{
+    position: absolute;
+    top: 225px;
+    left: 179px;
+}
+.nose{
+    width: 50px;
+    height: 25px;
+    background: black;
+    border-radius: 50%;
+    top: 212px;
+    left: 185px;
+    position: absolute;
+    z-index: 10;
+}
+.tatoo{
+    position: absolute;
+    top: 80px;
+left: 330px;
+}
+.ear-left{
+    width: 130px;
+    height: 150px;
+    border: 3px solid black;
+background: black;
+position: absolute;
+border-radius: 46% 125%;
+z-index: -10;
+left: 20px;
+}
+.ear-right{
+    width: 130px;
+    height: 150px;
+    border: 3px solid black;
+background: black;
+position: absolute;
+border-radius: 125% 46%;
+z-index: -10;
+left: 270px;
+}
+.hat{
+    position: absolute;
+    top: -170px;
+    right: 100px;
+}
+.telo{width: 350px;
+    height: 255px;
+    background: white;
+    border: 10px solid black;
+    position: absolute;
+    border-radius: 89% 44% 72% 45%;
+    top: 250px;
+    left: 20px;
+    z-index: -10;
+}
+.hand-left{
+width: 100px;
+height: 85px;
+background: black;
+position: absolute;
+border: 10px solid black;
+border-radius: 50% 50%;
+top: 270px;
+left: 80px;
+}
+
+.hand-right{
+    width: 100px;
+    height: 85px;
+    background: black;
+    position: absolute;
+    border: 10px solid black;
+    border-radius: 50% 50%;
+    top: 270px;
+    left: 250px;
+    }
+
+    
+.leg-left{
+    width: 150px;
+    height: 105px;
+    background: black;
+    position: absolute;
+    border: 10px solid black;
+    border-radius: 37% 69% 27% 58%;
+    top: 420px;
+    left: -15px;
+    }
+    .leg-right{
+        width: 150px;
+        height: 105px;
+        background: black;
+        position: absolute;
+        border: 10px solid black;
+        border-radius: 58% 27% 69% 37%;
+        top: 420px;
+        left: 230px;
+        }
