@@ -1,0 +1,43 @@
+*, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 1000px;
+    background: wheat;
+}
+.margin-h{
+    margin-bottom: 80px;
+    margin-left: 40px;
+}
+.content-text{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 13px;
+    text-indent: 1.5em;
+    margin: 10px;
+}
+.haleck{
+    background: rgb(132, 202, 132);
+    font-style: italic;
+    font-weight: bold;
+}
+.mh{
+    background: aquamarine;
+    font-style: italic;
+}
+.marsel{
+    background: rgb(240, 175, 167);
+    font-style: italic;
+}
+.stars{
+    font-weight: bold;
+}
+.kach{
+    background: rgb(253, 255, 111);
+    font-style: italic;
+}
+.lavr{
+    background: pink;
+    font-style: italic;
+}
