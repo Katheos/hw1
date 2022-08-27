@@ -1,0 +1,95 @@
+*, body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.links li{
+    font-size: 22px;
+    float: left;
+    position: relative;
+}
+.clear{
+    clear: both;
+}
+.link{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: darkblue;
+    text-decoration: none;
+    border-right: goldenrod 3px solid;
+    padding: 10px 15px;
+}
+.link:hover{
+    background: rgba(0.0, 0.0, 0.0, 0.7);
+}
+.links li:last-child .link{
+    border: 0px; 
+}
+.in-links{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 125%;
+    width: 100%;
+}
+.links li:hover .in-links{
+    display: block;
+}
+.in-links li{
+    float: none;
+}
+.in-links a{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.in-links .link{
+    border: 0px;
+    border-bottom: 3px solid goldenrod;
+    text-align: center;
+}
+.spec-blog::before{
+    content: '\2630';
+    margin-right: 10px;
+    color: goldenrod;
+}
+.spec-contact::before{
+    content: '\260E';
+    margin-right: 10px;
+    color: goldenrod;
+}
+.spec-home::before{
+    content: '\2693';
+    margin-right: 10px;
+}
+.spec-about::before{
+    content: '\270E';
+    margin-right: 10px;
+    color: goldenrod;
+}
+.spec-home::after{
+    content: '\2693';
+    margin-left: 5px;
+    color: goldenrod;
+}
+.spec-1::before{
+    content: '\2776';
+    margin-right: 5px;
+    color: goldenrod;
+}
+.spec-2::before{
+    content: '\2777';
+    margin-right: 5px;
+    color: goldenrod;
+}
+.spec-3::before{
+    content: '\2778';
+    margin-right: 5px;
+    color: goldenrod;
+}
+.spec-4::before{
+    content: '\2779';
+    margin-right: 5px;
+    color: goldenrod;
+}
