@@ -1,0 +1,77 @@
+*, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.allcar{
+    position: fixed;
+    left: 84%%;
+    top: 50%;
+    animation: carmove 10s infinite linear;
+}
+@keyframes carmove{
+0%{
+    left: 84%;
+}
+49%{
+    transform: scaleX(1)
+}
+50%{
+    left: 0%;transform: scaleX(-1)
+}
+99%{
+    transform: scaleX(-1)
+}
+100%{
+    left: 84%;transform: scaleX(1)
+}
+}
+@keyframes carspin{
+    0%{
+        transform: scaleX(1);
+    }
+}
+.signal{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(202, 202, 202);
+    border: 1px;
+    border-radius: 25%;
+    margin: -135px 0 0 67px;
+    z-index: -1;
+    position: fixed;
+    animation: signalka 1s infinite;
+}
+@keyframes signalka{
+    0%{
+        background-color: red;
+    }
+    50%{
+        
+        background-color: blue;
+    }100%{
+        
+        background-color: red;
+    }
+
+}
+.wheelleft{
+    position: fixed;
+    margin: -50px 0 0 190px;
+    z-index: -1;
+    animation: wheelspin 10s infinite linear;
+}
+.wheelright{
+    position: fixed;
+    margin: -50px 0 0 0;
+    z-index: -1;
+    animation: wheelspin 10s infinite linear;
+}
+@keyframes wheelspin{
+    0%{
+        rotate: 360deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+}
